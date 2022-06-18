@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 100%, 74%);
+    background-image:;
+}
+.layout{
+    display: flex;
+}
+.form{
+    margin:auto;
+    margin-top: 15px;
+    padding: 13px;
+    background-color: white;
+    box-shadow: green;
+    width: 60%;
+    margin-right: 80px;
+    border-radius: 0.1cm;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-style: groove;
+    border-radius: 0.1cm;
+    border-color: rgb(182, 179, 179);
+    opacity: 0.1;
+    
+}
+input[type="text"],
+input[type="password"],
+input[type="email"], :hover{
+    border-color: rgb(223, 222, 222);
+    opacity: 1;    
+}
+
+
+.main{
+    margin: 10px;
+    margin-left: 30px;
+    padding: 10px;
+    width: 100%;
+    color: whitesmoke;
+    word-spacing: 2px;
+}
+.p{
+    padding: 2px;
+    margin-left: 40px;
+    width: 110%;
+    color: white;  
+}
+.upbtn{
+    background-color: hsl( 248, 32%, 49%);
+    margin-left: 250px;
+    width:60% ;
+    padding: 13px;
+    margin-top: 100px;
+    color: white;
+    border-radius: 0.2cm;
+    border-color:hsl(0, 100%, 74%) ;
+    
+
+}
+.trail{
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(154, 59%, 51%);
+    border-color:  hsl(154, 59%, 51%);
+    color: white;
+    border-radius: 0.1cm;
+}
+.strail{
+    font-size: 11px;
+    margin-left: 38px;
+    padding: 10px;
+    color: rgb(173, 172, 172);
+    width: 70%;
+
+}
+.text{
+    margin-top: 20%;
+    padding-left: 40px;
+    margin-right: 
+}
+.em-one{
+    color: lightgrey;
+    font-style: normal;
+}
+.em-two{
+    color: red;
+    font-style: initial ;
+}
